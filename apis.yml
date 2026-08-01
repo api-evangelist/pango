@@ -1,7 +1,21 @@
 aid: pango
 name: Pango
-description: Pango is a company surfaced as a portfolio company of y-combinator and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Pango is a Y Combinator (Summer 2026) startup building an AI-powered operating
+  system for e-commerce post-purchase and logistics operations. The platform
+  positions itself as an "agentic OS" — autonomous AI agents that handle
+  back-office logistics tasks — and consolidates multi-carrier delivery
+  management, checkout delivery options, branded order tracking, and returns
+  processing into a single unified system. Pango advertises multi-carrier
+  orchestration across 100+ shipping providers with AI-powered routing and rate
+  optimization, self-service return portals with automated approvals, warehouse
+  pick-and-pack automation, and AI agents that resolve exceptions and automate
+  workflows. It integrates with major commerce platforms (Shopify, WooCommerce,
+  BigCommerce, Magento, Salesforce Commerce, NetSuite) and 100+ carrier, WMS,
+  marketing, and support partners. Added to the API Evangelist network as a
+  Y Combinator portfolio lead; as of this enrichment pass the company markets an
+  "API-first architecture" but publishes no public developer documentation,
+  API reference, OpenAPI spec, or SDK.
 url: https://raw.githubusercontent.com/api-evangelist/pango/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +23,57 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- E-Commerce
+- Logistics
+- Shipping
+- Fulfillment
+- Returns
+- Order Tracking
+- Artificial Intelligence
+- Agents
+- Y Combinator
+image: https://pango.ai/favicon.ico
 apis: []
+common:
+- type: DomainSecurity
+  url: security/pango-domain-security.yml
+- type: Website
+  url: https://pango.ai/
+- type: Pricing
+  url: https://pango.ai/pricing
+- type: SignUp
+  url: https://pango.ai/book-demo
+- type: TermsOfService
+  url: https://pango.ai/terms
+- type: PrivacyPolicy
+  url: https://pango.ai/privacy
+- type: StatusPage
+  url: https://status.pango.ai/status/pango
+- type: Support
+  url: https://pango.ai/book-demo
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

@@ -1,5 +1,5 @@
 generated: '2026-10-12'
-method: none
+method: searched
 source:
 - https://zapier.com/apps/pango/integrations
 - https://n8n.io/integrations/pango/
@@ -10,7 +10,26 @@ checked:
 - https://monid.ai/tools/pango
 - https://n8n.io/integrations/pango/
 - https://zapier.com/apps/pango/integrations
+- shopify/integrations/shopify-integration-edges.yml
 summary: null
 marketplace_apps: []
-edges: []
+edges:
+- partner_name: Shopify (own)
+  partner: shopify
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://apps.shopify.com/pango
+  mirror_of: shopify/integrations/shopify-integration-edges.yml
+  apps:
+  - Pango Delivery & Returns
+  listing_count: 1
+  detected: '2026-10-15'
+  detected_by: mirror-platform-listings.py
+  publisher_verified:
+  - Built for Shopify
 templates: []

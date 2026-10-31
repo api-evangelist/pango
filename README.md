@@ -64,6 +64,99 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Pango is a company surfaced as a portfolio company of y-combinator and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Pango is a Y Combinator (Summer 2026) startup building an AI-powered operating system for e-commerce post-purchase and logistics operations. The platform positions itself as an "agentic OS" — autonomous AI agents that handle back-office logistics tasks — and consolidates multi-carrier delivery management, checkout delivery options, branded order tracking, and returns processing into a single unified system. Pango advertises multi-carrier orchestration across 100+ shipping providers with AI-powered routing and rate optimization, self-service return portals with automated approvals, warehouse pick-and-pack automation, and AI agents that resolve exceptions and automate workflows. It integrates with major commerce platforms (Shopify, WooCommerce, BigCommerce, Magento, Salesforce Commerce, NetSuite) and 100+ carrier, WMS, marketing, and support partners. Added to the API Evangelist network as a Y Combinator portfolio lead; as of this enrichment pass the company markets an "API-first architecture" but publishes no public developer documentation, API reference, OpenAPI spec, or SDK.
 
-Backed by: y-combinator
+**Areas:** Company · E-Commerce · Logistics · Shipping · Fulfillment · Returns · Order Tracking · Artificial Intelligence · Agents · Y Combinator
+
+## Pango on APIs.io
+
+Everything profiled for Pango is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/pango/](https://apis.io/providers/pango/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [pango](https://apis.io/servers/pango/pango/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Pango Domain Security](https://apis.io/security/pango/pango-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Pango Plans Pricing](https://apis.io/plans/pango/pango-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://pango.ai/)
+- [Pricing](https://pango.ai/pricing)
+- [Sign up](https://pango.ai/book-demo)
+- [Support](https://pango.ai/book-demo)
+- [Terms of service](https://pango.ai/terms)
+- [Privacy policy](https://pango.ai/privacy)
+- [Status](https://status.pango.ai/status/pango)
+
+## API Evangelist rating
+
+**Kin Score 20.0** — emerging · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 51.7 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 4.8 |
+| Access clarity | 65.8 |
+
+**Agent readiness 12.2** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | verified |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 12.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/pango/](https://apis.io/providers/pango/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Pango: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/pango/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
